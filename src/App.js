@@ -1,13 +1,10 @@
 import React from 'react';
-import Parrafo from './components/Parrafo';
-import Variables from './components/Variables';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
     <div>
-      <h1>Hola mundo React</h1>
-      <Parrafo />
-      <Variables />
+      <Home/>
     </div>
   );
 }
